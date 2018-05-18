@@ -8,8 +8,9 @@
    
 }
 .game {
-    padding-top: 75px;
-    padding-left: 75px;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
     text-align: center;
 }
 
