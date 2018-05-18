@@ -1,0 +1,31 @@
+.container {
+    width:960px;
+    margin: 0 auto;
+    background-image: url("./assets/images/martin-fennema-21816-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 643px;
+   
+}
+.game {
+    padding-top: 75px;
+    padding-left: 75px;
+    text-align: center;
+}
+
+#currentWord {
+    letter-spacing: 10px;
+}
+
+h3,h4,h5 {
+    padding: 5px;
+}
+
+/* .gameplay-column {
+    padding-top: 20px;
+    border: 3px dashed #fff;
+    text-align: center;
+    margin-top: 20px;
+    min-height: 500px;
+    background-color: rgba(255, 255, 255, .3);
+} */

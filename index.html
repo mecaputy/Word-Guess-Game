@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+    <script src="./assets/javascript/game.js" type="text/javascript"></script>
+    <style>
+        .container {
+        background-image: url("/Users/martinacaputy/apps/Word-Guess-Game/assets/images/martin-fennema-21816-unsplash.jpg");
+    }
+    .body {
+        background-color: black;
+    }
+    </style>
+</head>
+<body>
+   <div class="container">
+        <!-- insert game design and images -->
+        <div class="game">
+            <div class="row" class="col-md-12"><h2>Press Any Key to Get Started!</h2></div>
+           <div class="row">
+               <div class="col-md-8">
+                   
+                     <h3 id="currentWord"></h3>
+                   
+                     <h4>letters Guessed:</h4>
+                     <h3 id="guessedLetters"></h3>
+                   
+               </div>
+               <div class="col-md-4">
+                     <h4>Wins:</h4>
+                     <h5 id="totalWins"></h5>
+                       
+                     <h5>Guesses Remaining:</h5>
+                     <h5 id="remainingGuesses"></h5>
+
+               </div>
+           </div>
+        </div>
+   </div>
+<script>
+    startGame();
+    updateDisplay();
+</script>
+   
+   
+    <!-- choose a theme for the game safari?  -->
+
+ 
+     <!-- In html list divs for containers  -->
+   
+    <!-- Use key events to listen for the letters that your players will type ** day 2 #21 listening events-->
+
+      <!-- Display the following on the page:
+            
+//             "Press any key to get started"
+
+//             "wins # of times user guessed the word correctly"
+
+//                  "display as _ _ _ _"
+
+//                 "reveal the words as the player guesses them"
+
+//             Numeber of guesses remaining
+
+//             Letters already guessed
+
+//             after the user wins/loses the game automatically selects another word -->
+
+</body>
+</html>
